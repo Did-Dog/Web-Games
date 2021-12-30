@@ -1,7 +1,7 @@
 # Web-Games
 Collection of html,javascript games
 
-## Games details
-1.Snake Game Forked from [here]()
+## Game details
+1.Snake Game Forked from [https://github.com/rembound/Snake-Game-HTML5](https://github.com/rembound/Snake-Game-HTML5)
 
-[![Making A Block It Game Prototype With HTML5](dd.png?raw=true)](http://rembound.com/articles/making-a-block-it-game-prototype-with-html5)
+2.Block It Forked from [https://github.com/rembound/Block-It-Protoype-HTML5](https://github.com/rembound/Block-It-Protoype-HTML5)
