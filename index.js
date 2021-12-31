@@ -6,9 +6,9 @@ setInterval(function () {
 	showTime();
 }, 1000);
 
-function createNewTextFile() {
-  location.href = "create_note";
+function game_block_it() {
+  location.href = "block_it";
 }
-function editTextFile() {
-  location.href = "load_note";
+function game_bubble_shooter() {
+  location.href = "bubble_shooter";
 }
