@@ -19,5 +19,5 @@ function game_match_3() {
   location.href = "match_3";
 }
 function game_snake() {
-  location.href = "snake";
+  location.href = "snake_game";
 }
