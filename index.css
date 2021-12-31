@@ -2,7 +2,7 @@ body{
   padding: 25px;
 }
 .container { 
-  height: 100px;
+  height: 80px;
   position: relative;
   border: 0px solid green; 
 }
