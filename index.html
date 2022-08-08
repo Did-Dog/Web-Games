@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Make and edit Text File(.txt) Online" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="index.css" /> 
   <link rel="icon" href="favicon/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
@@ -17,31 +18,39 @@
 <h2>Text Editor Online</h2>
 <p>Create or edit Text files(.txt) online</p>
 
-<div class="container">
+<div data-aos="fade-right"
+data-aos-duration="2000" class="container">
   <div class="center">
     <button class="button button5" onclick="game_block_it()">Block It</button>
   </div>
 </div>
-<div class="container">
+<div  data-aos="fade-down"
+data-aos-duration="2000"  class="container">
   <div class="center">
     <button class="button button5" onclick="game_bubble_shooter()">Bubble Shooter</button>
   </div>
 </div>
-<div class="container">
+<div  data-aos="fade-up"
+ data-aos-duration="2000" class="container">
   <div class="center">
     <button class="button button5" onclick="game_canvas()">Canvas Game</button>
   </div>
 </div>
-<div class="container">
+<div  data-aos="fade-down"
+ data-aos-duration="2000" class="container">
   <div class="center">
     <button class="button button5" onclick="game_match_3()">Match 3 Game</button>
   </div>
 </div>
-<div class="container">
+<div  data-aos="fade-up"
+ data-aos-duration="2000" class="container">
   <div class="center">
     <button class="button button5" onclick="game_snake()">Snake Game</button>
   </div>
 </div>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
